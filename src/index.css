@@ -1,0 +1,12 @@
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #f0f4f8;
+  color: #1a2840;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+input, textarea, select, button { font-family: inherit; }
+button { cursor: pointer; }
+input[type="date"] { -webkit-appearance: none; appearance: none; }
