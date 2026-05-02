@@ -50,7 +50,7 @@ export default async function handler(req, res) {
     },
     contents: [{ role: "user", parts }],
     generationConfig: {
-      maxOutputTokens: 4000,
+      maxOutputTokens: 8000,
       temperature: 0.7,
       responseMimeType: "application/json",
     },
